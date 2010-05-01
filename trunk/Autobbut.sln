@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDriver", "TestDriver\TestDriver.csproj", "{AD4165F2-B80B-419C-BF9E-3D7B5CBD1ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTestSuiteGenerator", "xUnitTestSuiteGenerator\xUnitTestSuiteGenerator.csproj", "{DA7F0B46-67C3-4D50-B5F1-57ADF67E3306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnit", "TestUnit\TestUnit.csproj", "{D7C1195A-96C9-4F76-936C-4829CA667A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F7DCC30-A4A9-49DF-8988-5C9CA6D8A67C}"
+	ProjectSection(SolutionItems) = preProject
+		Autobbut.vsmdi = Autobbut.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Autobbut.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD4165F2-B80B-419C-BF9E-3D7B5CBD1ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4165F2-B80B-419C-BF9E-3D7B5CBD1ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4165F2-B80B-419C-BF9E-3D7B5CBD1ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4165F2-B80B-419C-BF9E-3D7B5CBD1ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7F0B46-67C3-4D50-B5F1-57ADF67E3306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7F0B46-67C3-4D50-B5F1-57ADF67E3306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7F0B46-67C3-4D50-B5F1-57ADF67E3306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7F0B46-67C3-4D50-B5F1-57ADF67E3306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C1195A-96C9-4F76-936C-4829CA667A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C1195A-96C9-4F76-936C-4829CA667A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C1195A-96C9-4F76-936C-4829CA667A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C1195A-96C9-4F76-936C-4829CA667A71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
